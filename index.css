@@ -1,0 +1,101 @@
+body {
+    background-color: azure;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+
+
+#landing {
+    display: flex;
+    height: 100vh;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-image {
+    background-image: url('/images/laptop-with-camera-smartphone-table_23-2148036986.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+
+}
+
+h2 {
+    font-size: large;
+    color: burlywood;
+}
+
+a.btn {
+    text-decoration: none;
+    border: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 50px;
+}
+
+a:hover {
+    background-color: bisque;
+}
+
+section {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgb(0 0 0 / 10%), -30px 0px 40px rgb(0 0 0 / 10%);
+    display: inline-flex;
+}
+
+#header {
+    background-color: black;
+    max-width: 900px;
+    margin: auto;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+footer{text-align: center;}
+.z{font-size: xx-large;}
